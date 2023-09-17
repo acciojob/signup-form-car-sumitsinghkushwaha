@@ -9,8 +9,10 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
+		
 		<label for="name" >Name</label>
 		<input type="text" id="name" placeholder="Name" required >
+		
 		<label for="email" >Email</label>
 		<input type="email" id="email" placeholder="Email" required >
 		
@@ -26,8 +28,8 @@
 			
 		</select>
 		
-		<label id="age">Age</label>
-		<input type="number" id="age" placeholder="Age" required >
+		<label id="age" >Age</label>
+		<input type="Number" id="age" name="age" placeholder="Age" required >
 		
 		<label for="dob" >DOB</label>
 		<input type="date" id="dob" required >
@@ -39,7 +41,8 @@
 		<input type="Password" id="password" required >
 		
 		<label id="tos">I agree to the TOS</label>
-		<input type="checkbox" id="tos" required >
+		<input type="checkbox" id="tos" name="tos" required >
+		
 		<button type="submit">Submit</button>
 		
 	</form>
